@@ -2,3 +2,5 @@
 data_red/*
 /__pycache__/
 /models/*.pt
+*.pt
+*.backup

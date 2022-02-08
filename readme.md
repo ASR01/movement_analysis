@@ -55,16 +55,16 @@ Here is where the frames obtained before will be separated in the train and test
 
 #### model_training.py and model.py
 
-Not much to explain here, the model is trained and the best result is saved to be able to deploy it afterwards. Due to their size the weights are not stored in github.  
+Not much to explain here, the model is trained and the best result is saved to be able to deploy it afterwards. Due to their size the weights are not stored in GitHub. They can be found [here](https://drive.google.com/file/d/1K1hZav2uy99HcFfC9yae-ciWX9o6rPb5/view?usp=sharing)
 	In the *model.py* is defined the model (r3d_18) 
 
 #### inference.py
 
-In this file the inference function is defined with the bes state saved in the model training phase. A function is defined that with the input of an avi file is possible to retunr the classification of the motion activity.
+In this file the inference function is defined with the bes state saved in the model training phase. A function is defined that with the input of an avi file is possible to return the classification of the motion activity.
 
 #### st_app.py
 
-Just a very simple user interface where is possible to load some video, and this video will be sliced in frames, loaded in the model and the classification will be issud. To use this user interface remember to use `stramlit run st_app.py` from your virtual environment.
+Just a very simple user interface where is possible to load some video, and this video will be sliced in frames, loaded in the model and the classification will be issued. To use this user interface remember to use `stramlit run st_app.py` from your virtual environment.
 
 ![Image](./readme_files/Screenshot1.png)
 

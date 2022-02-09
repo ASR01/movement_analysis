@@ -1,7 +1,7 @@
 import torch
 import torchvision
 from torchvision import transforms
-from a1_get_frames import get_frames
+from preprocessing import get_frames
 from PIL import Image
 import pickle
 

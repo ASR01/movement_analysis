@@ -73,3 +73,7 @@ Just a very simple user interface where is possible to load some video, and this
 After 80 epochs the model has been reported to have an accuracy of 98% 
 
 ![Image](./readme_files/Screenshot2.png)
+
+### Deployment
+
+I added the required *procfile*, *setup.sh* in case a Heroku deployment is needed. Do not forget to rename *requirements_st.txt* to *requirements.txt* for the Heroku deployment to work. 
